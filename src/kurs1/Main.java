@@ -55,11 +55,8 @@ public class Main {
         for (int i = 0; i < employees.length; i++) {
             if (employees[i].getSalary() < salary) {
                 salary = employees[i].getSalary();
-            }
-            if (salary == employees[i].getSalary()) {
                 contact = employees[i];
             }
-
 
         }
         System.out.println("Минимальная зарплата: " + contact);
@@ -71,10 +68,9 @@ public class Main {
         for (int i = 0; i < employees.length; i++) {
             if (employees[i].getSalary() > salary) {
                 salary = employees[i].getSalary();
-            }
-            if (salary == employees[i].getSalary()) {
                 contact = employees[i];
             }
+
         }
         System.out.println("Максимальная зарплата: " + contact);
     }
